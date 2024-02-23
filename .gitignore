@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/solar_power_predicto/node_modules
+/frontend/solar_power_predicto/.pnp
+/frontend/solar_power_predicto.pnp.js
+/frontend/solar_power_predicto.yarn/install-state.gz
+
+# testing
+/frontend/solar_power_predicto/coverage
+
+# next.js
+/frontend/solar_power_predicto/.next/
+/frontend/solar_power_predicto/out/
+
+# production
+/frontend/solar_power_predicto/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+/frontend/solar_power_predicto/npm-debug.log*
+/frontend/solar_power_predicto/yarn-debug.log*
+/frontend/solar_power_predicto/yarn-error.log*
+
+# local env files
+/frontend/solar_power_predicto/.env*.local
+
+# vercel
+/frontend/solar_power_predicto/.vercel
+
+# typescript
+/frontend/solar_power_predicto/*.tsbuildinfo
+/frontend/solar_power_predicto/next-env.d.ts
